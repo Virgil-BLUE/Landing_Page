@@ -1,0 +1,35 @@
+.body {
+    display: flex;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-menu {
+    display: flex;
+}
+
+.header-text {
+    display: flex;
+}
+
+.ht {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.services {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+}
