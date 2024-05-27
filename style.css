@@ -7,19 +7,44 @@
     flex-direction: column;
     background-color: #1F2937;
     color: #F9FAF8;
+    height: 600px;
 }
 
 .header-menu {
     display: flex;
+    height: 100px;
 }
 
-.header-text {
+.logo {
+    display: flex;
+    flex: 1;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 40px;
+}
+
+.links {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-content {
     display: flex;
 }
 
 .ht {
     display: flex;
     flex-direction: column;
+    flex: 1;
+}
+
+.hi {
+    display: flex;
+    flex: 1;
+    align-items: center;
 }
 
 .content {
@@ -34,4 +59,10 @@
 .footer {
     display: flex;
     flex-direction: column;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: 150px;
+    background-color: #1F2937;
 }
